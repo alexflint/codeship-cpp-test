@@ -1,0 +1,3 @@
+- name: build_all
+  service: build-environment
+  command: gcc -o test test.cc
